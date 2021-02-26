@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:stretchColumns="*"
+    android:background="@color/design_default_color_primary"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:background="@drawable/border"
+            android:id="@+id/table_id"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/text_view_id"
+                android:gravity="center"
+                android:layout_span="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Student Details Table"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:backgroundTint="@color/teal_200"
+
+            android:id="@+id/second_ro"
+            android:layout_marginTop="15dp"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/id_id"
+                android:layout_width="102dp"
+                android:text="ID"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/name_id"
+                android:text="Name"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/roll_id"
+                android:text="Roll"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/class_id"
+                android:text="Class"
+                android:textSize="20sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#fff"
+            android:id="@+id/data_row"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/id"
+                android:layout_width="102dp"
+                android:text="0001"
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/name"
+                android:text="Rakib"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/roll"
+                android:text="261480"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/class_his"
+                android:text="Eleven"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#fff"
+            android:id="@+id/data_row1"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/id1"
+                android:layout_width="102dp"
+                android:text="0002"
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/name1"
+                android:text="Imran"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/roll1"
+                android:text="261445"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:id="@+id/class_his1"
+                android:text="Eleven"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
